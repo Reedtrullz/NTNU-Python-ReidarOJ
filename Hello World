@@ -1,4 +1,4 @@
-# Printe "hva python skal si" til consol
+# Printe "hva python skal si" til console. Tekst innafor "" er en string.
 print("Hello World!")
 print("Dette er en god string")
 # print "Dette er også "+"en god string" funker i Python 2 så usikker på om det under funker i Python3
@@ -7,7 +7,7 @@ print("Dette er også" + "en god string")
 # Man kan definere en variabel slik
 dagens_dato = "17/8/2020"
 
-#Man utfører aritmetikk slik
+#Man utfører aritmetikk slik med operators
 pluss = 2 + 2
 minus = 2 - 2
 gange = 2 * 2
@@ -46,6 +46,29 @@ int2 = 10
 int3 = -5
 #float er et tall med desimaler. Dette gjelder også om desimalen står bakerst. feks
 float1 = 1.0
-float2= 10.
+float2 = 10.
 float3 = -5.5
 float4 = 1.5e2 #float4=150 . Regnes slik (1.5e2  =>  1.5 * 10 ** 2  =>  150.0)
+#Kode for å regne ut sekserprisen på dahls
+boks_pris = 32
+sekser = boks_pris * 6
+print(sekser)
+#Her er en kalkulator for å finne ut hvor mange agurker det blir per pers med og uten desimaler
+cucumbers = 100
+num_people = 6
+whole_cucumbers_per_person = cucumbers / num_people
+float_cucumbers_per_person = float(cucumbers) / num_people #float(variabel) tillater Python å outputte en float istedet for en integer
+
+print("Det blir")
+print(whole_cucumbers_per_person)
+print("hele agurker per person")
+
+print("Det blir tilsammen")
+print(float_cucumbers_per_person)
+print("agurker per pers")
+#man kan også ha en multi-line string. feks
+haiku = """The old pont,
+A frog jumps in:
+Plop!"""
+#En boolean er alltid enten True eller False.
+# False = 0 | True = 1 . Booleans fungerer altså som integer.
